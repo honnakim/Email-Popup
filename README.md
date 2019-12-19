@@ -4,6 +4,6 @@ Popup email box utilizing localStorage
 
 ### Development Tools
 
-HTML
-Javascript
-Skeleton.css
+*HTML
+*Javascript
+*Skeleton.css
