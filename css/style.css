@@ -2,10 +2,13 @@
 div#popup-container {
     max-width: 767px;
     margin: 2rem auto;
+    position: relative;
 }
 
 div#email-form-column {
     padding: 2rem;
     border-right: 1px solid #CCC;
     border-left: 1px solid #CCC;
+    background: #FFF;
+    margin-left: 5rem;
 }
