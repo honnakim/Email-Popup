@@ -3,12 +3,23 @@ div#popup-container {
     max-width: 767px;
     margin: 2rem auto;
     position: relative;
+    background: url(../images/cleaning-beach.jpeg) no-repeat;
+    background-size: cover;
+    background-position: 120%;
 }
 
 div#email-form-column {
     padding: 2rem;
-    border-right: 1px solid #CCC;
-    border-left: 1px solid #CCC;
     background: #FFF;
     margin-left: 5rem;
+}
+
+.button, 
+button, 
+input[type="submit"], 
+input[type="reset"], 
+input[type="button"] {
+    color: #FFF;
+    background-color: #fdc6a0;
+    border: none;
 }
