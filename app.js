@@ -1,6 +1,3 @@
-const   firstName = document.getElementById('first-name'),
-        lastName = document.getElementById('last-name'),
-        email = document.getElementById('email');
 
 //Email Object
 class EmailContact {
@@ -11,12 +8,14 @@ class EmailContact {
     }
 }
 
+//UI Functions
 class UI {
     getInputFields() {
 
     }
 }
 
+//LocalStorage Functions
 class Store {
     static addContacttoLocal() {
 
@@ -24,6 +23,14 @@ class Store {
 }
 
 document.getElementById('email-form-column').addEventListener('submit', function(e) {
+    const   firstName = document.getElementById('first-name'),
+            lastName = document.getElementById('last-name'),
+            email = document.getElementById('email');
+
+    //Instantiate EmailContact
+    const emailCont = new EmailContact(firstName, lastName, email);
+    //Instantiate UI Functions
+    const ui = new UI();
 
     e.preventDefault();
 });
